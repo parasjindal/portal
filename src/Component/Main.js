@@ -9,7 +9,7 @@ export const Main = () => (
         <Switch>
             <Route exact path='/' component={AddDesign} />
             <Route exact path='/viewdesigns' component={ViewDesigns} />
-            <Route exact path='/design' component={Design} />
+            <Route exact path='/design/:id' component={Design} />
         </Switch>
     </main>
 )

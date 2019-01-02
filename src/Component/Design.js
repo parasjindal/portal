@@ -14,7 +14,7 @@ export default class Design extends Component {
     render() {
         return (
             <div>
-                Name: {this.props.name}
+                Name: {this.props.match.params.id}
                 Description: {this.props.description}
             </div>
         )
